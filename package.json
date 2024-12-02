@@ -1,0 +1,14 @@
+{
+  "name": "png-steno",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "encode": "node encode.js",
+    "decode": "node decode.js"
+  },
+  "dependencies": {
+    "pngjs": "^7.0.0",
+    "zlib": "^1.0.5"
+  }
+}
